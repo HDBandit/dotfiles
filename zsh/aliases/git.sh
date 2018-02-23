@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-alias history='git log --oneline --decorate --graph'
-alias h='history'
+alias h='git log --oneline --decorate --graph'
 
 # create new branch tagging the start
 # nb = new branch
