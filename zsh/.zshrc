@@ -6,7 +6,7 @@ for exportToSource in $DOTFILES_PATH/zsh/exports/*; do source $exportToSource; d
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-plugins=(git docker history zsh-autosuggestions fzf-zsh)
+plugins=(git docker history zsh-autosuggestions fzf-zsh z)
 
 source $ZSH/oh-my-zsh.sh
 
